@@ -7,6 +7,9 @@ body {
   font-family: system-ui, sans-serif;
   display: block;
   margin: 8px;
+  background-image:url("img-baku", "img-london", "img-madrid", "img-rome");
+  background-size:contain;
+  background-repeat:repeat-x;
 }
 h1{
   font-style:bold;
@@ -16,6 +19,7 @@ h1{
 .preview {
   position: relative;
   text-align: center;
+  float: left;
 }
 
 .txtdiv  {
@@ -43,13 +47,12 @@ h1{
   left: 4%;
 }
 
-  @media screen and (min-width: 575px){
-     div {
-      margin: 1%;
-      width: 48%;
-    }
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
   }
-
+}
 .img-baku {
   width: 300px
   }
